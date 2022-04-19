@@ -1,0 +1,213 @@
+/* Builder styling */
+
+h3 {
+	padding: 5px;
+	border-radius: 5px;
+	background-color: transparent;
+	transition: background-color 600ms;
+}
+
+h3:hover {
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0);
+	background-color: transparent;
+}
+
+.triggerLabel:before {
+	content: " ";
+	color: rgb(126, 126, 126);
+}
+.triggerLabel {
+	color: rgb(211, 62, 62);
+}
+
+.conditionLabel:before {
+	
+	content: " ";
+	color: rgb(116, 116, 116);
+}
+.conditionLabel {
+
+	color: rgb(221, 221, 221);
+}
+.targetLabel {	
+	color: rgb(221, 221, 221);
+}
+.targetLabel:before {	
+	content: " ";
+	color: rgb(139, 137, 137);
+}
+
+.mechanicLabel:before {
+	content: " ";
+	color: rgb(163, 145, 128);
+}
+.mechanicLabel {
+	content: " ";
+	color: rgb(221, 221, 221);
+}
+.componentWrapper {
+    float: left;
+	color: rgb(139, 137, 137);
+}
+
+/* .component {
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid #333;
+	border-radius: 10px;
+	font: 18px Sertig-Web;
+	background-color: #181818;
+    width: 260px;
+    height: 90px;
+} */
+.condition{
+	margin: 1px;
+	border: 2px rgba(0, 75, 145);
+	border-style:ridge;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.7);
+    width: 480px;
+
+    height: 50px;
+
+}
+.target{
+	margin: 1px;
+	border: 2px rgb(0, 141, 7);
+	border-style:ridge;
+	border-radius: 10px;
+
+	background-color: rgba(0, 0, 0, 0.7);
+    width: 480px;
+
+    height: 50px;
+
+}
+.trigger {
+	margin: 1px;
+	border: 2px rgba(85, 13, 13, 0.9);
+	/* border-style: outset; */
+	border-style:solid;
+	border-radius: 10px;
+
+	background-color: rgb(0, 0, 0);
+    width: 580px;
+
+    height: 50px;
+}
+[title="Edit Jun_MythicSkill options"],[title="Edit Jun_MM_Mechanic options"]
+{
+
+    color: rgb(255, 251, 0);
+	animation-name: t2;
+	animation-duration: 8s;
+	animation-delay: 0s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+[title="Edit Particle Projectile options"],[title="Edit Jun_ValuePlus options"]
+{
+
+    color: rgb(255, 251, 0);
+	animation-name: t1;
+	animation-duration: 8s;
+	animation-delay: 0s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+[title="edit"]:hover
+{
+
+    background: rgb(99, 99, 99);
+
+
+}
+[title="Edit Particle Animation options"]
+{
+
+    color: rgb(77, 76, 76);
+
+
+}
+[title="Edit Jun_ParticleAnimation options"]
+{
+
+    color: rgb(255, 251, 0);
+
+
+
+	animation-name: OTFEFFECT6;
+	animation-duration: 8s;
+	animation-delay: 0s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+	animation-direction: alternate;
+
+}
+
+
+.mechanic{
+	margin: 1px;
+	border: 2px rgba(37, 37, 37, 0.9);
+	border-style:solid;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.7);
+    width: 550px;
+    height: 50px;
+
+}
+.componentChildren {
+    margin-left: 20px;
+}
+.builderButton2 {
+	float: right;
+	background-color: rgb(0, 36, 43);
+
+	width: 90px;
+    height: 32px;
+	font: 100% Sertig-Web;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 10px;
+	color: white;
+	cursor: pointer;
+	margin: 5px;
+	
+	transition: background-color 600ms;
+}
+.builderButton2:hover {
+	background-color: rgb(0, 123, 145);
+}
+.builderButton {
+	float: right;
+	background-color: rgb(0, 19, 59);
+
+	width: 90px;
+    height: 32px;
+	font: 100% Sertig-Web;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 10px;
+	color: white;
+	cursor: pointer;
+	margin: 5px;
+	
+	transition: background-color 600ms;
+}
+
+.smallButton {
+    width: 32px;
+}
+
+.builderButton:hover {
+	background-color: rgb(1, 41, 126);
+}
+
+/* Form styling */

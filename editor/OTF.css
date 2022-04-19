@@ -1,0 +1,14 @@
+@keyframes OTFEFFECT
+{
+0%   {border: linear-gradient(red,blue,purple,yellow);}
+25%  {border: rgb(255, 255, 255);}
+50%  {border: rgb(139, 139, 139);}
+100% {border: rgb(75, 75, 75);}
+}
+@keyframes TEXTCOLOR
+{
+0%   {color: linear-gradient(red,blue,purple,yellow);}
+25%  {color: yellow;}
+50%  {color: blue;}
+100% {color: green;}
+}

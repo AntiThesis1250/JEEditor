@@ -1,0 +1,43 @@
+#skillDetails{
+	position: absolute;
+	width: 5%;
+	height: 5.5%;
+	margin-left: 90%;
+	margin-top: 5%;
+}
+#addTrigger{
+	position: absolute;
+	width: 5%;
+	height: 5.5%;
+	margin-top: 1%;
+	margin-left: 90%;
+}
+#saveSkill{
+	position: absolute;
+	width: 5%;
+	height: 5.5%;
+	margin-top: 33%;
+	margin-left: 90%;
+}
+#deleteSkill{
+	position: absolute;
+	width: 5%;
+	height: 5.5%;
+	margin-top: 37%;
+	margin-left: 90%;
+}
+#io{
+	position: absolute;
+	width: 5%;
+	height: 5.5%;
+	margin-top: 42%;
+	margin-left: 90%;
+}
+#saveButton{
+	height: 100%;
+	width: 46%;
+
+	border-radius: 5px;
+	text-align: center;
+
+}
